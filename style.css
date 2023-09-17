@@ -1,0 +1,114 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: rgb(62,62,62);
+    ; /* Background color */
+    color: #fff; /* Text color */
+}
+
+ul {
+    list-style-type: none;
+    text-align: center; /* Center align the list items horizontally */
+}
+
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+/* Style the navigation links */
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Link text color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #ff9900; /* Change link text color on hover */
+}
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    font-family: monospace;
+}
+
+
+body{
+    background-color: black;
+}
+
+.card{
+    background-color: whitesmoke;
+    width: 450px;
+    height: 600px;
+    margin: 15px;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    
+}
+
+.card-image {
+    height: 200px; /* Increase the height */
+    background-size: cover;
+    background-position: center; /* Center the background image */
+}
+.car-1{
+    background-image: url(css.png);
+}
+
+.car-2{
+    background-image: url(html.logo.png);
+}
+
+.car-3{
+    background-image: url(reactlogo.jpg);
+}
+
+/* .card a{
+    background-color: black;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin:20px 50px;
+    
+} */
+
+.card a {
+    background-color: black;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px auto; /* Center-align the buttons horizontally and add vertical margin */
+    width: 150px; /* Set a fixed width for better alignment */
+}
+.card:hover{
+    background-color: rgb(62,62,62);
+    color:white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+h2{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+}
