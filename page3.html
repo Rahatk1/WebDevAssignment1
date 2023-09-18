@@ -1,12 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page3</title>
+    <title>Page3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+        body, ul {
+    margin: 0;
+    padding: 10px;
+}
+p{
+    font-family: monospace;
+}
+
+
+/* Style the navigation bar */
+nav {
+    background-color:#f0f0f0 ;
+    ; /* Background color */
+    color: #fff; /* Text color */
+}
+
+ul {
+    list-style-type: none;
+    text-align: center; 
+}
+
+li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+a {
+    text-decoration: none; 
+    color: #fff; 
+    transition: color 0.3s; 
+}
+a:hover {
+    color: #ff9900; 
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        h1 {
+            background-color:rgb(62,62,62);
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h3 {
+            border-bottom: 2px solid #333;
+            padding: 10px;
+        }
+
+        p {
+            padding: 10px;
+        }
+
+        #gallery {
+    text-align: center;
+}
+
+
+#gallery img {
+    border: 5px solid rgb(56, 47, 47);
+}
+
+#gallery p {
+    text-align: center;
+}
+
+#myButton {
+            display: block;
+            margin: 0 auto;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 10px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
 </head>
+
 <body>
-    
+    <div class="nav">
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Leading tech companies</h1>
+    <h3>FAANGS</h3>
+
+    <p>Below are some of leading companies in tech:</p>
+
+    <div id="gallery">
+        <img src="newfv.gif" alt="Image 1" style="width:550px">
+        <p>Facebook is a popular social media platform that allows users to create profiles, upload photos and videos, send messages, and keep in touch with friends, family, and colleagues. It was launched on February 4, 2004, by Mark Zuckerberg and his college roommates Andrew McCollum, Chris Hughes, Dustin Moskovitz, and Eduardo Saverin. Users can add other users as "friends," exchange messages, post status updates, share photos, videos, and links, use various apps, and receive notifications of other users' activities. Additionally, users may join user groups, which are organized by workplace, school or college, or other characteristics, and categorize their friends into lists such as "People From Work" or "Close Friends." Over the years, Facebook has evolved into a platform for businesses as well, allowing companies to create pages, post updates, and advertise to targeted audiences.</p>
+        <img src="logaster-2020-03-amazon-gif-logo.gif" alt="Image 2" style="width:550px">
+        <p>Amazon.com, Inc. is an American multinational technology company based in Seattle, Washington. It is one of the world's largest online retailers and a prominent player in various other industries. Amazon was founded by Jeff Bezos on July 5, 1994, as an online bookstore, but it quickly expanded its product offerings and global reach. Today, it offers a wide variety of goods and services, including: Retail Services: Amazon's online marketplace allows people to buy and sell a vast array of goods, from books to electronics, clothing, and more. Amazon also offers its own line of products under the AmazonBasics brand. Amazon Prime: A subscription service that offers numerous benefits, including free two-day shipping on eligible items, access to streaming video and music, and more. Amazon Web Services (AWS): A subsidiary of Amazon that provides on-demand cloud computing platforms and APIs (Application Programming Interfaces) to individuals, companies, and governments, on a metered pay-as-you-go basis.</p>
+        <img src="applegif.gif" alt="Image 3" style="width:550px">
+        <p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California. It designs, manufactures, and markets consumer electronics, computer software, and online services. Apple is one of the most famous and valuable companies in the world. Apple's flagship products include the iPhone smartphone, the iPad tablet computer, the Mac personal computer, the iPod portable media player, the Apple Watch smartwatch, and the Apple TV digital media player. Apple's software includes the macOS, iOS, iPadOS, watchOS, and tvOS operating systems, the iTunes media player, the Safari web browser, and the iWork and iMovie creative suites. Apple also operates the App Store, iTunes Store, and Apple Music. Furthermore, Apple offers online services like iCloud, Apple Pay, and the Apple Card. Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak's Apple I personal computer, though Wayne sold his share back to Jobs and Wozniak within 12 days. It was incorporated as Apple Computer, Inc., in January 1977, and sales of its computers, including the Apple II, grew quickly. Apple went public in 1980. In 1984, Apple launched the Macintosh, the first personal computer to be sold without a programming language.</p>
+    </div>
+
+    <h3>Data Table</h3>
+
+    <table>
+        <tr>
+            <th>COMPANY NAME</th>
+            <th>Stock Price 09/18/2023</th>
+        </tr>
+        <tr>
+            <td>FACEBOOK</td>
+            <td>$300.50 </td>
+        </tr>
+        <tr>
+            <td>AMAZON</td>
+            <td>$139.48 </td>
+        </tr>
+        <tr>
+            <td>APPLE</td>
+            <td>$178.52
+            </td>
+        </tr>
+    </table>
+
+    <button id="myButton">Click Me!</button>
+<div id="bactotop">  <p><a href="#top">Click me to go back to the top</a></p>
+</div>
+
+    <script>
+        document.getElementById('myButton').addEventListener('click', function () {
+            alert('This java script button makes a pop up message appear for user. This also satisfies requirement for project ;)  ');
+        });
+    </script>
+
 </body>
+
 </html>
