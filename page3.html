@@ -183,15 +183,19 @@ a:hover {
         </tr>
     </table>
 
-    <button id="myButton">Click Me!</button>
+    <button id="myButton">Click Me to change colors!</button>
 <div id="bactotop">  <p><a href="#top">Click me to go back to the top</a></p>
 </div>
 
-    <script>
-        document.getElementById('myButton').addEventListener('click', function () {
-            alert('This java script button makes a pop up message appear for user. This also satisfies requirement for project ;)  ');
-        });
-    </script>
+<script>
+    document.getElementById('myButton').addEventListener('click', function () {
+        var colors = ['#FF5733', '#33FF57', '#3357FF', '#F5FF33', '#FF33F6', '#33FFF6'];
+        var randomColor = colors[Math.floor(Math.random() * colors.length)];
+        document.body.style.backgroundColor = randomColor;
+    });
+</script>
+
+
 
 </body>
 
