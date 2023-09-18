@@ -112,3 +112,9 @@ h2{
     display: flex;
     padding-bottom: 10px;
 }
+
+
+#bactotop{
+    display:flex ;
+    justify-content: center;
+}
