@@ -1,35 +1,32 @@
-/* Reset some default styles */
 body, ul {
     margin: 0;
     padding: 10px;
 }
 
-/* Style the navigation bar */
 nav {
     background-color: rgb(62,62,62);
-    ; /* Background color */
-    color: #fff; /* Text color */
+    ; 
+    color: #fff; 
 }
 
 ul {
     list-style-type: none;
-    text-align: center; /* Center align the list items horizontally */
+    text-align: center; 
 }
 
 li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Add some spacing between list items */
+    display: inline; 
+    margin-right: 20px; 
 }
 
-/* Style the navigation links */
 a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* Link text color */
-    transition: color 0.3s; /* Smooth color transition on hover */
+    text-decoration: none; 
+    color: #fff; 
+    transition: color 0.3s; 
 }
 
 a:hover {
-    color: #ff9900; /* Change link text color on hover */
+    color: #ff9900; 
 }
 
 
@@ -79,15 +76,7 @@ body{
     background-image: url(reactlogo.jpg);
 }
 
-/* .card a{
-    background-color: black;
-    color: #fff;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin:20px 50px;
-    
-} */
+
 
 .card a {
     background-color: black;
@@ -95,8 +84,8 @@ body{
     padding: 15px 20px;
     display: block;
     text-align: center;
-    margin: 20px auto; /* Center-align the buttons horizontally and add vertical margin */
-    width: 150px; /* Set a fixed width for better alignment */
+    margin: 20px auto; 
+    width: 150px; 
 }
 .card:hover{
     background-color: rgb(62,62,62);
